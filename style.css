@@ -225,8 +225,6 @@ footer {}
 .link-items {
     overflow: hidden;
     /* display: flex; */
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 50px;
 }
 .link-item {
     float: left;
@@ -250,5 +248,39 @@ footer {}
     color: #000;
 }
 .copyright {
-    height: 400px;
+    padding: 50px 0;
+    border-top: 1px solid #ddd;
+    padding-bottom: 80px;
+}
+.logo-footer {
+    float: left;
+    transform: translateY(-4px);
+}
+.policy {
+    float: left;
+}
+.policy a {
+    margin: 5px;
+}
+.policy a:after {
+    content: '|';
+    font-size: 14px;
+    padding-left: 10px;
+    color: #ccc;
+}
+.policy a:last-child:after {
+    display: none;
+}
+.language {
+    float: right;
+}
+.language i {
+    font-size: 24px;
+    /* vertical-align: middle;
+    margin-top: -3px; */
+    transform: translateY(3px);
+}
+.language select {
+    font-size: 16px;
+    padding: 5px;
 }
