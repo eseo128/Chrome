@@ -177,3 +177,26 @@ section.welcome {
         transform: translateY(-3px);
     }
 }
+
+/* Section : callaction */
+section.callaction {
+    height: 280px;
+    background: #4285F4 url(images/download-bg-desktop.svg) no-repeat center center;
+    padding-top: 90px;
+}
+section.callaction .callaction-inner {
+    text-align: center;
+}
+section.callaction h1 {
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+section.callaction .btn-download {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+section.callaction .btn-download:hover {
+    background-color: #fff;
+    color: #000;
+}
