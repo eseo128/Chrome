@@ -64,11 +64,23 @@ section.feature {
     line-height: 1.2em;
     
 }
-.desc p {}
-.read-more {}
-.photo {}
 .photo img {
     width: 100%;
+}
+.read-more {
+    color: purple;
+}
+/* xeicon html이 아닌 css로 넣기 */
+.read-more:after {
+    content: '\e907';
+    font-family: xeicon;
+    margin-left: 5px;
+    display: inline-block; 
+    /* transform은 inline에서 적용되지 않으므로 inline-block으로 바꿔주기 */
+    transition: 0.35s;
+}
+.read-more:hover:after{
+    transform: translateX(5px);
 }
 
 /* Header */
