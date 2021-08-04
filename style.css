@@ -200,3 +200,55 @@ section.callaction .btn-download:hover {
     background-color: #fff;
     color: #000;
 }
+/* Footer */
+footer {}
+.footer-inner {
+    width: 1250px;
+    margin: auto;
+}
+.sns-outer {
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+}
+.sns {
+    font-size: 20px;
+}
+.sns b {
+    font-weight: normal;
+}
+.sns a {
+    font-size: 24px;
+}
+.sitemap {
+    padding: 50px 0;
+}
+.link-items {
+    overflow: hidden;
+    /* display: flex; */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 50px;
+}
+.link-item {
+    float: left;
+    width: 20%;
+    /* flex: 1; */
+}
+.link-item-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.link-item-content {
+    line-height: 2.3em;
+}
+.link-item-content a {
+    display: block;
+    font-size: 14px;
+    color: #555;
+}
+.link-item-content a:hover {
+    color: #000;
+}
+.copyright {
+    height: 400px;
+}
