@@ -101,8 +101,13 @@ header {
     padding-top: 16px;
 }
 .download {
+    transform: translateX(200px);
     float: right;
     padding-top: 10px;
+    transition: 0.5s;
+}
+.download.active {
+    transform: translateX(0);
 }
 
 /* Section : Welcome */
