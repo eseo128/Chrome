@@ -49,18 +49,19 @@ section.feature {
 .inner {
     width: 1250px;
     margin: auto;
-    /* overflow: hidden; */
-    display: flex;
-    align-items: center;
-}
+     overflow: hidden; 
+    /* display: flex;
+    align-items: center; */
+} 
+
 .inner > div {
-    /* float: left;
-    width: 50%; */
-    flex: 1;
+    float: left;
+    width: 50%; 
+    /* flex: 1; */
 }
 .desc {
-    padding: 0 50px;
-    /* padding-top: 100px; */
+     padding: 0 50px;
+     padding-top: 100px; 
 }
 .desc h1 {
     font-size: 42px;
@@ -156,6 +157,8 @@ section.welcome {
     bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 50%;
 }
 .next-section a {
     width: 60px;
@@ -206,7 +209,6 @@ section.callaction .btn-download:hover {
     color: #000;
 }
 /* Footer */
-footer {}
 .footer-inner {
     width: 1250px;
     margin: auto;
@@ -286,6 +288,6 @@ footer {}
     transform: translateY(3px);
 }
 .language select {
-    font-size: 16px;
+    font-size: 14px;
     padding: 5px;
 }
